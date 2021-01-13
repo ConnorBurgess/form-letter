@@ -1,7 +1,12 @@
-(document).ready(function()){
-    $("#inputname").submit(function());
-        $(".input").append(".inputLoc");
-        console.log();
-        $("#letterbody").show();
-    );
-}
+
+
+$(document).ready(function () {
+  $("form#some-form").submit(function (event) {
+    const someInput = $("input#some-input").val();
+    alert(someInput)
+    event.preventDefault();
+  });
+});
+
+
+
