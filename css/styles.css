@@ -1,3 +1,22 @@
+body{
+  background-image: url("\images\Header.jpg");
+}
+
+
 #letterBody {
   display: none;
+}
+
+
+div#letterHeader{
+  background-image: url("\images\Header.jpg");
+  margin-right: -15px; 
+  margin-left: -15px; 
+}
+
+#letterBody h1 p{
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
 }
